@@ -15,6 +15,9 @@ public class MVCPatternDemo {
         controller.updateView();
     }
     public static Student retrieveStudentFromDatabase(){
-        return new Student("John Smith", "510");
+        Student student = new Student();
+        student.setName("John");
+        student.setRollNo("10");
+        return student;
     }
 }

@@ -19,7 +19,7 @@ public class Student{
     }
 
     public String getRollNo(){
-        return rollno;
+        return rollNo;
     }
     public void setRollNo(String rollNo){
         this.rollNo = rollNo;

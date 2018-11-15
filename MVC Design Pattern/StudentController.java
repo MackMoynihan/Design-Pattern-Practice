@@ -24,16 +24,18 @@ public class StudentController{
         if (student != null){
             return student.getName();
         }
+        return null;
     }
     public void setStudentRollNo(String rollNo){
         if (student != null){
             student.setRollNo(rollNo);
         }
     }
-    public void getStudentRollNo(){
+    public String getStudentRollNo(){
         if (student != null){
-            return student.getRollno();
+            return student.getRollNo();
         }
+        return null;
     }
     public void updateView(){
         studentView.printStudentDetails(student);
